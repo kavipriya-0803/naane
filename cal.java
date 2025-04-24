@@ -1,4 +1,6 @@
-public class kp{
+import java.util.*;
+
+public class cal{
   public static void main(String[] args){
     Scanner sc= new Scanner(System.in);
     int a=sc.nextInt();
@@ -21,3 +23,6 @@ public class kp{
     else{
       System.out.println(a%b);
     }
+    sc.close();
+  }
+}
